@@ -3,14 +3,29 @@ body
 	font-family: 'Droid Serif', serif;
 	color: white;
 	background-color: #383a3d;
+	text-align: center;
 
 }
+
+
+#profile
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .heading
 {
 	font-family: 'Droid Serif', serif;
 	color: #383a3d;
-	background-color: white;
+	background-color: white;	
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
+	
 }
 
 
@@ -18,10 +33,7 @@ a:link
 {
 	color: white;
 }
-a:visited
-{
-	color: white;
-}
+
 a:hover
 {
 	color: #085EF0;
