@@ -1,0 +1,27 @@
+REPORT.txt
+
+ 
+
+You are a wizard.
+
+In your search for the philosopher’s stone, you have uncovered a powerful sleeping potion.
+From the wizard that lives next door. 
+
+Unaware of how powerful the potion is, you drink an entire flask when only one drop is needed. 
+
+Now a ghost has possessed your physical body. 
+
+The only way to escape the clutches of possession is to survive your ghostly nightmare long enough for your body to wake up of its own accord. 
+
+You must run. 
+
+
+~~~~~~~~~~~~~~~~~~
+
+
+The sprite animation is handled by an update and render function in the sprite class that is called by the game loop. The player can move the animated wizard sprite any direction by using the keyboard. The ghost homes in on the player by continuously updating its X and Y coordinates based on those of the wizard.
+
+
+~~~~~~~~~~~~~~~~~~~
+
+

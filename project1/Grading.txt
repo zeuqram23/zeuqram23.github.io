@@ -1,0 +1,12 @@
+GRADING.txt
+
+Definition of game objects -> In ufodod.js, there is a sprite class that takes contains an image variable. Multiple instances of this sprite class are used to define the sprites that are animated in game. 
+
+Animation of game objects -> The sprite animation is handled by an update and render function in the sprite class that is called by the game loop. The player can move the animated wizard sprite any direction by using the keyboard. The ghost homes in on the player by continuously updating its X and Y coordinates based on those of the wizard. 
+
+Interaction -> Collision detection is used both when the player tries to move the wizard off of the canvas, and when the ghost touches the wizard. The canvas is the boundary of the “wizard’s nightmare”, so it is a hard wall. When the ghost touches the wizard, it is game over. 
+
+
+Keeping Score -> the objective  of this game is to survive the ghost attack by running away. The player’s score is updated every frame by the game loop. If the score reaches 999 before the ghost touches the wizard, the game has been won. 
+
+Complexity -> This is more complex than pong due to the depth of the story, the ability to move an animated sprite along both the X and Y axes, and the use of a homing function to determine the location of the ghost in relation to the player. The ghost also gradually gets faster and faster as the game progresses. 
