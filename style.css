@@ -1,4 +1,24 @@
 body
 {
-	background-color: #383A3D
+	font-family: 'Droid Serif', serif;
+	color: white;
+	background-color: #383a3d;
+
 }
+.heading
+{
+	font-family: 'Droid Serif', serif;
+	color: #383a3d;
+	background-color: white;
+
+}
+
+
+a:link
+{
+	color: white;
+	text-indent: 20px;
+}
+
+
+
