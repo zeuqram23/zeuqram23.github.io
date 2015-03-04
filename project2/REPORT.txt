@@ -1,0 +1,16 @@
+REPORT.txt
+
+///DREAM QUEST///
+by Sebastian Marquez
+
+
+Objective: 
+	Beat the final boss (‘dream devil’) by progressing through the levels through the ‘correct’ crystals. 
+
+Graphical Objects (all drawn by me): 
+	Player sprite (self portrait), Goo Monster (moving enemy), One Eyed Ghost-opus (static enemy), Friendly Ghost (NPC/Pickup), Dream Devil (Moving entity with attacks), Crystals (acts as level warps, rotates to the right), False Crystals (instantly kills the player), Rope Swings, background assets. 
+
+Scoring: Your score is displayed when the player dies during the game. Your score is incremented whenever you kill an enemy and pick up an extra life (run into the NPC). Your score is decremented whenever you die. If you win the game, you get to the bonus “flying dream” level. 
+
+
+Screenshots are separate. 
