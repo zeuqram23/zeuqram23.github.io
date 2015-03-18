@@ -1,0 +1,19 @@
+GRADING.txt
+
+3 Levels: Complete (there are actually 4. 5 if you count the bonus level) Every level implements parallax scroll
+
+Splash Screen: title screen plus scenario upon loading the game
+
+Sprite/Main Player: Running, Falling, Jumping, Swimming, Flying, Climbing (ladders), Swinging included. Transitions between the two are smooth. 
+
+Friendly Sprite: the friendly ghost gives you an extra life whenever you run into him. 
+
+Enemy Sprites: Goo Monster (dynamic), One Eyed Ghost-opus (static), Dream Devil (attacks the player)
+
+3 types of attacks: Single Eighth note(laser), 2 eighth notes (grenade), Sonic punch (melee)
+
+
+Player Attributes: 3 lives (more if you pick up the npc’s), enemies kill upon impact, looks like a cool dude, attacks with music.
+
+
+
