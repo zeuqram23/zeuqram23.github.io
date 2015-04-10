@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<head>
+		<style>
+			#results{
+				float: left;
+				background-color: lightblue;
+			}
+			canvas{
+
+			}
+		</style>
+
+
+	<body>
+		<canvas id="myCanvas" height="355" width="655" style="border: 2px solid #000000;"></canvas>
+		<script type="text/javascript" src="aStar ver 1.js"> </script>
+		<p></p>
+
+		<div id = "content">
+			<h1>A* Pathfinder </h1>
+			<p> Set the start, goal, and obstacles by clicking on the grid </p>
+			<p> To display F, G, and H values, press the F, G, and H keys. To clear, press C </p>
+			<p> to step through, start A* then select step speed</p>
+			<p> Press space to step</p>
+			<button onclick="init(26)"> reset grid </button>
+			<button onclick="doAStar()"> Start A*</button>
+			<button onclick="doDijkstra()"> Start zig-zag algorithm</button>
+			<button onclick="makeSlow()"> enable single stepping</button>
+			<button onclick="makeMed()"> enable medium step speed </button>
+			<button onclick="makeFast()"> enable fast step speed </button>
+		
+
+		<div>
+			<p id="results"></p>
+		</div>
+
+	</body>
